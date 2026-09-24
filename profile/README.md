@@ -25,13 +25,26 @@ $ whoami
 
 | Project | Stack | What you get |
 |---|---|---|
-| 🛡️ [**talus-process-monitor**](https://github.com/BartoszOsiej/talus-process-monitor) | Rust · eBPF · Aya | Behavioral ransomware detection with auto-kill — ~280k events/s, seccomp+Landlock self-sandboxing, one static binary |
-| ⚡ [**externum**](https://github.com/BartoszOsiej/externum) | Python · self-hosted | A typed language compiling to Python, Bash **and** native EXBC bytecode — 400+ tests, browser REPL, built-in DRM |
-| 🌌 [**Aurora**](https://github.com/BartoszOsiej/Aurora) | TypeScript · zero deps | A complete operating system in your browser — kernel, window manager, VFS, 14 apps, `.aurora` state snapshots |
-| 🔐 [**quantum-shield**](https://github.com/BartoszOsiej/quantum-shield) | Rust | Post-quantum file encryption — ML-KEM-768 + AES-GCM |
-| 🐧 [**linux-aegis**](https://github.com/BartoszOsiej/linux-aegis) | C | A Linux kernel security module |
-| 🛰️ [**fortis**](https://github.com/BartoszOsiej/fortis) | Rust · RISC-V | Chain-of-trust for embedded systems |
-| 🗡️ [**CyberForge**](https://github.com/BartoszOsiej/CyberForge) | Python | Port scanner, packet analysis, hash cracking — the offensive side of the house |
+| 🛡️ [**talus-process-monitor**](https://github.com/Hartwell-Labs/talus-process-monitor) | Rust · eBPF · Aya | Behavioral ransomware detection with auto-kill — ~280k events/s, seccomp+Landlock self-sandboxing, one static binary |
+| ⚡ [**externum**](https://github.com/Hartwell-Labs/externum) | Python · self-hosted | A typed language compiling to Python, Bash **and** native EXBC bytecode — 400+ tests, browser REPL, built-in DRM |
+| 🔐 [**quantum-shield**](https://github.com/Hartwell-Labs/quantum-shield) | Rust | Post-quantum file encryption — ML-KEM-768 + AES-GCM |
+| 🌌 [**Aurora**](https://github.com/Hartwell-Labs/Aurora) | TypeScript · zero deps | A complete operating system in your browser — kernel, window manager, VFS, apps, `.aurora` state snapshots |
+| 🐧 [**linux-aegis**](https://github.com/Hartwell-Labs/linux-aegis) | C | A Linux kernel security module |
+| 🛰️ [**fortis**](https://github.com/Hartwell-Labs/fortis) | Rust · RISC-V | Chain-of-trust for embedded systems |
+
+### 🧪 Ruby division — bridges & registry
+
+| Project | Stack | What you get |
+|---|---|---|
+| 🔀 [**labbridge**](https://github.com/Hartwell-Labs/labbridge) | Ruby | Rust ⇄ Ruby bridge — translate Hartwell Labs Rust to runnable Ruby and Ruby plugins back to Rust (`LabPlugin` trait), targets verified against the Products Registry |
+| 📦 [**products**](https://github.com/Hartwell-Labs/products) | Ruby · Sinatra · MongoDB Atlas | The Products Registry — machine-readable index of our open-source products: repos, packages and containers |
+
+### 🗡️ Offensive side of the house
+
+| Project | Stack | What you get |
+|---|---|---|
+| 🗡️ [**CyberForge**](https://github.com/Hartwell-Labs/CyberForge) | Python | Port scanner, packet analysis, hash cracking — the tools we use in our own pentest labs |
+| 🎯 [**hack-the-lab**](https://github.com/Hartwell-Labs/hack-the-lab) | Shell | Hack our products before someone else does — challenges, CVE, Hall of Fame |
 
 ## 🧭 House rules
 
@@ -46,9 +59,9 @@ $ cat /etc/hartwell/rules
 
 ## 📡 Current signal
 
-- 🧪 **talus** — eBPF pipeline hardening, more response actions
+- 🛡️ **talus** — eBPF pipeline hardening, more response actions
 - ⚡ **externum** — source-to-source translation from Python & Rust into Externum
-- 🌌 **Aurora** — `.aurora` snapshot format v2, new apps and games
+- 🔀 **labbridge** — growing the Ruby plugin surface
 
 <div align="center">
 
