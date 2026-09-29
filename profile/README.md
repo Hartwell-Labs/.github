@@ -59,8 +59,9 @@ provenance (SLSA) and signed release artifacts.
 
 ## Contact
 
+- **General & business:** [contact@hartwell-labs.pl](mailto:contact@hartwell-labs.pl) · [business@hartwell-labs.pl](mailto:business@hartwell-labs.pl)
 - **Security reports / coordinated disclosure:** [bartosz.osiej2007@gmail.com](mailto:bartosz.osiej2007@gmail.com) — we acknowledge within 48h and credit reporters in each product's Hall of Fame.
-- **Website:** [hartwell-labs.github.io](https://hartwell-labs.github.io)
+- **Website:** [hartwell-labs.pl](https://hartwell-labs.pl)
 
 <div align="center">
 <br>
