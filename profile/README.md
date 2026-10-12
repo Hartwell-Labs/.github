@@ -11,6 +11,11 @@ Every feature ships with tests and CI — or it doesn't ship.
 
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/terminal-dark.svg" />
+  <img alt="Live terminal — Externum compiler, Talus eBPF agent, pqguard, supply-chain verification" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/terminal-light.svg" width="100%" />
+</picture>
+
 ---
 
 ## Products
@@ -28,7 +33,7 @@ Every feature ships with tests and CI — or it doesn't ship.
 
 | | Project | What it does | Status |
 |---|---|---|---|
-| ⚡ | [**externum**](https://github.com/Hartwell-Labs/externum) | A typed language compiling to readable Python, Bash and native EXBC bytecode. 400+ tests, browser REPL. | ![Release](https://img.shields.io/github/v/release/Hartwell-Labs/externum?style=flat-square&color=F15A24) ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/externum/ci.yml?branch=main&style=flat-square&label=CI) ![CodeQL](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/externum/codeql.yml?branch=main&style=flat-square&label=CodeQL) |
+| ⚡ | [**externum**](https://github.com/Hartwell-Labs/externum) | A typed language compiling to readable Python, Bash and native EXBC bytecode. 382 tests, browser REPL. | ![Release](https://img.shields.io/github/v/release/Hartwell-Labs/externum?style=flat-square&color=F15A24) ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/externum/ci.yml?branch=main&style=flat-square&label=CI) ![CodeQL](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/externum/codeql.yml?branch=main&style=flat-square&label=CodeQL) |
 | 🌌 | [**Aurora**](https://github.com/Hartwell-Labs/Aurora) | A complete operating system in the browser — kernel, window manager, VFS, apps. Zero dependencies. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/Aurora/ci.yml?branch=main&style=flat-square&label=CI) ![CodeQL](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/Aurora/codeql.yml?branch=main&style=flat-square&label=CodeQL) |
 
 ### Ruby division — bridges & registry
@@ -44,6 +49,11 @@ Every feature ships with tests and CI — or it doesn't ship.
 |---|---|---|
 | 🗡️ | [**CyberForge**](https://github.com/Hartwell-Labs/CyberForge) | The tools we use in our own pentest labs: recon, packet analysis, hash cracking. |
 | 🎯 | [**hack-the-lab**](https://github.com/Hartwell-Labs/hack-the-lab) | Break our products before someone else does. Challenges, CVE credits, Hall of Fame. |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/pipeline-dark.svg" />
+  <img alt="Animated supply-chain flow — git tag to signed images and registries" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/pipeline-light.svg" width="100%" />
+</picture>
 
 ## Engineering standards
 
