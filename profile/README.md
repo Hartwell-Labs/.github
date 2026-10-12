@@ -16,9 +16,19 @@ Every feature ships with tests and CI — or it doesn't ship.
   <img alt="Live terminal — Externum compiler, Talus eBPF agent, pqguard, supply-chain verification" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/terminal-light.svg" width="100%" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/org-dark.svg" />
+  <img alt="Hartwell Labs — org stats" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/org-light.svg" width="100%" />
+</picture>
+
 ---
 
 ## Products
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-dark.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-light.svg" width="100%" />
+</picture>
 
 ### Security infrastructure
 
@@ -57,6 +67,11 @@ Every feature ships with tests and CI — or it doesn't ship.
 
 ## Engineering standards
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-dark.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-light.svg" width="100%" />
+</picture>
+
 ```text
 1. Code over claims        every feature ships with tests and CI, or it doesn't ship
 2. Visibility is defense   you can't protect what you can't see — ask our eBPF hooks
@@ -68,6 +83,11 @@ talus-process-monitor additionally runs: fuzzing, OpenSSF Scorecard, supply-chai
 provenance (SLSA) and signed release artifacts.
 
 ## Contact
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-dark.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-light.svg" width="100%" />
+</picture>
 
 - **General & business:** [contact@hartwell-labs.pl](mailto:contact@hartwell-labs.pl) · [business@hartwell-labs.pl](mailto:business@hartwell-labs.pl)
 - **Security reports / coordinated disclosure:** [bartosz.osiej2007@gmail.com](mailto:bartosz.osiej2007@gmail.com) — we acknowledge within 48h and credit reporters in each product's Hall of Fame.
