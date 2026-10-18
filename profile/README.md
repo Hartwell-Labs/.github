@@ -52,9 +52,10 @@ Every feature ships with tests and CI — or it doesn't ship.
 | | Project | What it does | Status |
 |---|---|---|---|
 | 🛡️ | [**talus-process-monitor**](https://github.com/Hartwell-Labs/talus-process-monitor) | Behavioral ransomware detection & response for Linux. eBPF-based, ~280k events/s, seccomp+Landlock self-sandboxing, single static binary. | ![Release](https://img.shields.io/github/v/release/Hartwell-Labs/talus-process-monitor?style=flat-square&color=F15A24) ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/talus-process-monitor/ci-ultra.yml?branch=master&style=flat-square&label=CI) ![CodeQL](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/talus-process-monitor/codeql.yml?branch=master&style=flat-square&label=CodeQL) |
-| 🔐 | [**quantum-shield**](https://github.com/Hartwell-Labs/quantum-shield) | Post-quantum file encryption. ML-KEM-768 key encapsulation + AES-256-GCM. | ![CI](https://img.shields.io/badge/CI-local%20tests-6e7681?style=flat-square) |
-| 🐧 | [**linux-aegis**](https://github.com/Hartwell-Labs/linux-aegis) | Linux kernel security module (LSM). | ![CI](https://img.shields.io/badge/CI-local%20tests-6e7681?style=flat-square) |
-| 🛰️ | [**fortis**](https://github.com/Hartwell-Labs/fortis) | Chain-of-trust attestation for embedded systems (Rust, RISC-V). | ![CI](https://img.shields.io/badge/CI-local%20tests-6e7681?style=flat-square) |
+| 🔐 | [**quantum-shield**](https://github.com/Hartwell-Labs/quantum-shield) | Post-quantum file encryption. ML-KEM-768 key encapsulation + AES-256-GCM. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/quantum-shield/build-release.yml?branch=main&style=flat-square&label=CI) |
+| 🔬 | [**labtrace**](https://github.com/Hartwell-Labs/labtrace) | Forensic timeline reconstruction and cross-process threat correlation for Linux audit telemetry. Rules + data-flow taint analysis, no agent required. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/labtrace/ci.yml?branch=main&style=flat-square&label=CI) |
+| 🐧 | [**linux-aegis**](https://github.com/Hartwell-Labs/linux-aegis) | Linux kernel security module (LSM). | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/linux-aegis/ci.yml?branch=main&style=flat-square&label=CI) |
+| 🛰️ | [**fortis**](https://github.com/Hartwell-Labs/fortis) | Chain-of-trust attestation for embedded systems (Rust, RISC-V). | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/fortis/ci.yml?branch=master&style=flat-square&label=CI) |
 
 ### Developer tools
 
@@ -69,6 +70,22 @@ Every feature ships with tests and CI — or it doesn't ship.
 |---|---|---|---|
 | 🔀 | [**labbridge**](https://github.com/Hartwell-Labs/labbridge) | Rust ⇄ Ruby bridge: translate Hartwell Labs Rust to runnable Ruby, load Ruby plugins back into Rust via the `LabPlugin` trait. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/labbridge/ci.yml?branch=main&style=flat-square&label=CI) |
 | 📦 | [**products**](https://github.com/Hartwell-Labs/products) | Products Registry — machine-readable index of our open-source products: repos, packages, containers. Ruby · Sinatra · MongoDB Atlas. | ![API](https://img.shields.io/badge/API-live-2cb67d?style=flat-square) |
+
+### Intelligence & trust
+
+| | Project | What it does | Status |
+|---|---|---|---|
+| 🛰️ | [**scryer-core**](https://github.com/Hartwell-Labs/scryer-core) | Intelligence platform — collection, correlation and enrichment over event streams. Self-hosted. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/scryer-core/ci.yml?branch=master&style=flat-square&label=CI) |
+| ⛓️ | [**TrustNode**](https://github.com/Hartwell-Labs/TrustNode) | Solana-style validator in Rust: proof-of-history clock, Tower BFT, sealed accounts. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/TrustNode/ci.yml?branch=master&style=flat-square&label=CI) |
+
+### Privacy & learning
+
+| | Project | What it does | Status |
+|---|---|---|---|
+| 🧹 | [**photoscrub**](https://github.com/Hartwell-Labs/photoscrub) | Find what your photos leak — GPS, device serial, embedded thumbnails — before you upload them. Windows, one click. | ![build](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/photoscrub/build.yml?branch=master&style=flat-square&label=build) |
+| 🎓 | [**edu**](https://github.com/Hartwell-Labs/edu) | Anvil — interactive labs for security, Python, Ruby and Rust. Runs in the browser (WASM), downloadable as a lab VM. | ![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/edu/ci.yml?branch=main&style=flat-square&label=CI) |
+
+<br>
 
 ### Offensive security
 
