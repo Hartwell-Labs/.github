@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/hartwell-logo.gif" alt="Hartwell Labs" width="300" />
+<br>
 <img src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/hartwell-logo.svg" alt="Hartwell Labs" width="640" />
 
 <br>
@@ -12,22 +14,39 @@ Every feature ships with tests and CI — or it doesn't ship.
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/terminal-dark.svg" />
-  <img alt="Live terminal — Externum compiler, Talus eBPF agent, pqguard, supply-chain verification" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/terminal-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/terminal-dark.svg" />
+  <img alt="Live terminal — Externum compiler, Talus eBPF agent, pqguard, supply-chain verification" src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/terminal-light.svg" width="100%" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/org-dark.svg" />
-  <img alt="Hartwell Labs — org stats" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/org-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/org-dark.svg" />
+  <img alt="Hartwell Labs — org stats" src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/org-light.svg" width="100%" />
 </picture>
 
 ---
 
+<br>
+
+## Talus — eBPF ransomware detection
+
+<img src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/talus-demo.gif" alt="Talus TUI detecting a mass-encryption process" width="820" />
+
+[![stars](https://img.shields.io/github/stars/Hartwell-Labs/talus-process-monitor?style=flat-square&label=stars&color=F15A24)](https://github.com/Hartwell-Labs/talus-process-monitor)
+[![license](https://img.shields.io/github/license/Hartwell-Labs/talus-process-monitor?style=flat-square)](https://github.com/Hartwell-Labs/talus-process-monitor)
+[![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/talus-process-monitor/ci-ultra.yml?branch=master&style=flat-square&label=CI)](https://github.com/Hartwell-Labs/talus-process-monitor/actions)
+[![release](https://img.shields.io/github/v/release/Hartwell-Labs/talus-process-monitor?style=flat-square)](https://github.com/Hartwell-Labs/talus-process-monitor/releases)
+
+**MIT detection engine. Response, dashboard and SIEM exporters are Enterprise.**
+
+[hartwell-labs.pl/talus-process-monitor](https://hartwell-labs.pl/talus-process-monitor/)
+
+<br>
+
 ## Products
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-dark.svg" />
-  <img alt="" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/rule-dark.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/rule-light.svg" width="100%" />
 </picture>
 
 ### Security infrastructure
@@ -61,15 +80,15 @@ Every feature ships with tests and CI — or it doesn't ship.
 | 🎯 | [**hack-the-lab**](https://github.com/Hartwell-Labs/hack-the-lab) | Break our products before someone else does. Challenges, CVE credits, Hall of Fame. |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/pipeline-dark.svg" />
-  <img alt="Animated supply-chain flow — git tag to signed images and registries" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/pipeline-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/pipeline-dark.svg" />
+  <img alt="Animated supply-chain flow — git tag to signed images and registries" src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/pipeline-light.svg" width="100%" />
 </picture>
 
 ## Engineering standards
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-dark.svg" />
-  <img alt="" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/rule-dark.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/rule-light.svg" width="100%" />
 </picture>
 
 ```text
@@ -85,8 +104,8 @@ provenance (SLSA) and signed release artifacts.
 ## Contact
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-dark.svg" />
-  <img alt="" src="https://raw.githubusercontent.com/BartoszOsiej/BartoszOsiej/stats/svg/rule-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/rule-dark.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/rule-light.svg" width="100%" />
 </picture>
 
 - **General & business:** [contact@hartwell-labs.pl](mailto:contact@hartwell-labs.pl) · [business@hartwell-labs.pl](mailto:business@hartwell-labs.pl)
