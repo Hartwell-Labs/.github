@@ -116,6 +116,22 @@ Every feature ships with tests and CI — or it doesn't ship.
 talus-process-monitor additionally runs: fuzzing, OpenSSF Scorecard, supply-chain
 provenance (SLSA) and signed release artifacts.
 
+### Licensing
+
+Every repository in this organisation is MIT licensed, with two exceptions worth
+naming rather than burying:
+
+- **scryer-core** is dual licensed — MIT, or
+  [`LICENSE.commercial`](https://github.com/Hartwell-Labs/scryer-core/blob/master/LICENSE.commercial)
+  if you want to embed it in a product or run it as a service.
+- **linux-aegis** is GPL-2.0 WITH Linux-syscall-note, because it patches the
+  kernel and the kernel's terms are the kernel's terms.
+
+**Talus** is MIT in full here, and the response path, dashboard and SIEM
+exporters are not in this repository at all — they are built from a private
+crate. There is no flag that reaches them. What you can read here decides;
+what acts is what a subscription covers.
+
 ## Contact
 
 <picture>
