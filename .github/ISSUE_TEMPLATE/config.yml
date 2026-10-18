@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Hartwell-Labs/.github/blob/main/SECURITY.md
+    about: Report privately. Do not open a public issue for a vulnerability.
+  - name: Commercial licence or support
+    url: https://hartwell-labs.pl/
+    about: Dual-licensed products and paid support — contact@hartwell-labs.pl

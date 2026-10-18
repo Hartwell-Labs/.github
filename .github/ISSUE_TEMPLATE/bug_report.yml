@@ -1,0 +1,58 @@
+name: Bug report
+description: Something does not work the way the documentation says it does.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. If this is a **security issue**, do not file it
+        here — use the private reporting link on the repository, or security@hartwell-labs.pl.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what you saw instead.
+      placeholder: |
+        Running `talus-monitor --json` with a ruleset v2 profile exits 0 and prints
+        no events, although processes are being traced in `top`.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v0.8.2 / 1a2b3c4
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: Linux 6.11, x86_64 / Windows 11, ARM64 / macOS 15
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: anything
+    attributes:
+      label: Anything else
+      description: Logs, config, screenshots. Trim them to the relevant part.
